@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Logo from '../../assets/LOGO KIONAX-14_White.png'
+import './navbar.css'
 import { FaBars, FaTimes, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa'
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -45,7 +47,7 @@ const Navbar = () => {
             {/* Mobile Menu */}
             <ul className={!nav ? 'hidden' : 'md:hidden absolute top-[80px] left-0 w-full h-screen bg-black bg-opacity-95 flex flex-col justify-center items-center font-thin text-sm'}>
 
-                <li className='py-3 text-1xl'>ACERCA DE</li>
+                <li className='py-3 text-1x1'>ACERCA DE</li>
                 <li className='py-3 text-1xl'>SERVICIOS</li>
                 <li className='py-3 text-1xl'>CONTACTO</li>
                 <div className='py-12 flex justify-center items-center'>
