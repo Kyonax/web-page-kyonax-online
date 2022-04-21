@@ -15,23 +15,32 @@
 */
 
 .change-svg-color {
+  z-index: -1 !important;
   filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(86deg)
-    brightness(118%) contrast(119%);
+    brightness(118%) contrast(119%);  
 }
 
 .change-svg-color-v2 {
+  z-index: -1 !important;
   filter: invert(100%) sepia(70%) saturate(70%) hue-rotate(86deg)
-    brightness(80%) contrast(119%);
+    brightness(80%) contrast(119%);  
 }
 
-.color-span {
+.selected-logo:hover {
+  z-index: -1 !important;
+  opacity: 60%;
+  cursor: pointer;  
+}
+
+.color-span {  
   background: linear-gradient(
     98.83deg,
     #ff7c01 7.13%,
-    #FF007B 48.99%,
+    #ff007b 48.99%,
     #a819eb 84.14%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  z-index:-1
 }
