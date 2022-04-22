@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='text-xs absolute bottom-0 w-full h-[80px] flex flex-wrap items-center bg-[#0F0F0F] text-[#878787]'>
-
+        <div className='text-xs fixed bottom-0 w-full h-[80px] flex flex-wrap items-center bg-[#0F0F0F] text-[#878787]'>
+            
             <div className='flex flex-wrap w-full text-center md:w-1/3 '>
             <p className='w-1/4'> <a href="/terms">TÉRMINOS</a> </p>            
             <p className='w-1/4'> <a href="/privacidad">PRIVACIDAD</a> </p>
@@ -16,7 +16,8 @@ const Footer = () => {
             <div className='w-full text-right p-6 md:w-1/3'>
             <a href='https://twitter.com/kyonax_on' target="_blank"><p>© 2022 KYONAX - DOT KYO DEVELOPER</p></a>
             </div>
-
+            
+            
         </div>
     )
 }
