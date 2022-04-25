@@ -1,9 +1,9 @@
 import React from 'react'
-import { FaCheck, FaTwitch, FaTwitter, FaInstagram, FaLinkedin, FaFacebook, FaYoutube, FaTiktok, FaGithub, FaTools } from 'react-icons/fa'
+import { FaCheck, FaTwitch, FaTwitter, FaInstagram, FaLinkedin, FaFacebook, FaYoutube, FaTiktok, FaGithub, FaTools, FaDiscord } from 'react-icons/fa'
 
 const ScrollBlocks = () => {
     return (
-        <div className="content-block">
+        <div className="content-block xs:mt-6">
             <div className="steps-clone">
                 <div className="step-block">
 
@@ -22,9 +22,9 @@ const ScrollBlocks = () => {
                                         </div>
                                         <p>
 
-                                            Todo gran proyecto require una fase de <strong><em>desarrollo y preparación</em></strong> en dónde se
+                                            Todo gran proyecto requiere una fase de <strong><em>desarrollo y preparación</em></strong> en dónde se
                                             crean las ideas y los proyectos, en esta fase Kyonax se encarga de conseguir y
-                                            crear toda herramienta útil y necesaria para la elaboración/ejecución
+                                            crear toda herramienta necesaria para la elaboración y ejecución
                                             de cada uno de ellos.
                                             &zwj;
                                             <br />
@@ -37,29 +37,21 @@ const ScrollBlocks = () => {
                                             <p className='flex'>&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Dot Kyo <FaTools className='ml-1 mt-[7px] h-[10px] fill-[#a819eb]' /> <FaCheck className='hidden ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /></p>
                                             <p className='flex'>&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Kyonax lost in the Multiverse <FaTools className='ml-1 mt-[7px] h-[10px] fill-[#a819eb]' /> <FaCheck className='hidden ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /></p>
                                             <p className='flex'>&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Kyo NFT <FaTools className='ml-1 mt-[7px] h-[10px] fill-[#a819eb]' /> <FaCheck className='hidden ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /></p>
-                                            <p><strong>・</strong>Cuentas Sociales para la Creación de Contenido</p>
+                                            <p className='flex'><strong>・</strong>Cuentas Sociales para la Creación de Contenido <FaTools className='ml-1 mt-[7px] h-[10px] fill-[#a819eb]' /> <FaCheck className='hidden ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /></p>
+                                            {/*
                                             <p className='flex'>&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Kyonax <a href="https://kyonax.link/twitter"> <FaTwitter className='ml-1 mt-[6px] h-[12px] fill-black' /> </a> <a href="https://kyonax.link/instagram"> <FaInstagram className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <a href="https://kyonax.link/youtube"> <FaYoutube className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <a href="https://kyonax.link/facebook"> <FaFacebook className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <a href="https://kyonax.link/tiktok"> <FaTiktok className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <a href="https://kyonax.link/linkeedin"> <FaLinkedin className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <FaCheck className='ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /> </p>
                                             <p className='flex'>&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Dot Kyo <a href="https://kyonax.link/twitter"> <FaTwitter className='ml-1 mt-[6px] h-[12px] fill-black' /> </a> <a href="https://kyonax.link/youtube"> <FaYoutube className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <a href="https://kyonax.link/facebook"> <FaFacebook className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <a href="https://kyonax.link/tiktok_dotkyo"> <FaTiktok className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <a href="https://kyonax.link/linkeedin"> <FaLinkedin className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <a href="https://kyonax.link/github"> <FaGithub className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <FaCheck className='ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /> </p>
                                             <p className='flex'>&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Kyonax lost in the Multiverse <a href="https://kyonax.link/twitter"> <FaTwitter className='ml-1 mt-[6px] h-[12px] fill-black' /> </a> <a href="https://kyonax.link/play_youtube"> <FaYoutube className='ml-1 mt-[6px] h-[12px] fill-black' />  </a>  <a href="https://kyonax.link/tiktok_multiverse"> <FaTiktok className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <a href="https://kyonax.link/twitch"> <FaTwitch className='ml-1 mt-[6px] h-[12px] fill-black' />  </a> <FaCheck className='ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /> </p>
-                                            <p className='flex'>&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Kyo NFT <a href="https://kyonax.link/twitter_nft"> <FaTwitter className='ml-1 mt-[6px] h-[12px] fill-black' /> </a>  <a href="https://kyonax.link/tiktok_nft"> <FaTiktok className='ml-1 mt-[6px] h-[12px] fill-black' />  </a>  <FaCheck className='ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /> </p>
-                                            <p><strong>・</strong>Plataformas de Comunidad</p>
-                                            &nbsp;
-                                            <br />
-                                            <br />
-                                            &zwj;
-                                            <strong>
-                                                They will have shared power over the DAO funds &amp;
-                                                get compensated by a % of the DeDAO royalties.
-                                            </strong>
-                                            &nbsp;
-                                            <br />
-                                            <br />
-                                            &zwj;
-                                            <strong>
-                                                But they will have to actually do shit... because the
-                                                community will be able to vote them out at any time.
-                                            </strong>
-                                            <br />
+    <p className='flex'>&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Kyo NFT <a href="https://kyonax.link/twitter_nft"> <FaTwitter className='ml-1 mt-[6px] h-[12px] fill-black' /> </a>  <a href="https://kyonax.link/tiktok_nft"> <FaTiktok className='ml-1 mt-[6px] h-[12px] fill-black' />  </a>  <FaCheck className='ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /> </p>                                            */}
+                                            <p><strong>・</strong>Plataformas de Comunidad</p>                                                                                        
+                                            <p className='flex'>&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Comunidad Discord <a href="https://kyonax.link/discord"> <FaDiscord className='ml-1 mt-[6px] h-[12px] fill-black' /> </a> <FaTools className='ml-1 mt-[7px] h-[10px] fill-[#a819eb]' /> <FaCheck className='hidden ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /> </p>
+                                            {/*
+                                            <p className='flex'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Estructura y nueva temática para el Servidor</p>
+                                            <p className='flex'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Acceso de Comunidad — Dependencias —</p>
+                                            <p className='flex'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Beneficios y Recompensas a miembros</p>
+<p className='flex'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong className='mr-2'>- </strong>Desarrollo de Bot Automatizado</p>*/}
+                                            <p className='flex mb-9'><strong>・</strong>Otras implementaciones técnicas <FaTools className='ml-1 mt-[7px] h-[10px] fill-[#a819eb]' /> <FaCheck className='hidden ml-1 mt-[7px] h-[10px] fill-[#ff7c01]' /> </p>     
+                                            <a href="https://kyonax.link/docs_roadmap" className='color-span cursor-pointer'>[más información]</a> 
                                         </p>
                                     </div>
                                 </div>
