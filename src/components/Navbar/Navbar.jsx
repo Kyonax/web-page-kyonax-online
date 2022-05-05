@@ -18,7 +18,7 @@ const Navbar = () => {
             <ul className='hidden md:flex mr-[3%] font-thin text-sm'>
                 <li><a href="/roadmap">ROADMAP</a></li>
                 <li><a href="/acerca_de_kyonax">ACERCA DE</a></li>
-                <li><a href="/servicios">SERVICIOS</a></li>
+                <li><a href="/dependencias">DEPENDENCIAS</a></li>
                 <div className='hidden md:flex justify-center items-center'>
                     <li> <a href="https://www.linkedin.com/in/kyonax/">
                         <FaLinkedin /></a>
@@ -47,7 +47,7 @@ const Navbar = () => {
 
                 <li className='py-3 text-1xl'><a href="/roadmap">ROADMAP</a></li>
                 <li className='py-3 text-1x1'><a href="/acerca_de_kyonax">ACERCA DE</a></li>
-                <li className='py-3 text-1xl'><a href="/servicios">SERVICIOS</a></li>
+                <li className='py-3 text-1xl'><a href="/dependencias">DEPENDENCIAS</a></li>
                 <div className='py-12 flex justify-center items-center'>
                     <li> <a href="https://www.linkedin.com/in/kyonax/">
                         <FaLinkedin /></a>

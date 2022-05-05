@@ -5,7 +5,7 @@ const ScrollBlocks = () => {
     return (
         <div className="content-block xs:mt-6">
             <div className="steps-clone">
-                <div className="step-block">
+                <div className="step-block z-50">
 
                     <div className="blank-block"></div>
                     <div class="bg-[#ff7c01] dot"></div>
@@ -18,7 +18,7 @@ const ScrollBlocks = () => {
                                     <div className="label"></div>
                                     <div className="content">
                                         <div className="font-sans font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont akira-font">
-                                            preparacion de marca y herramientas
+                                            preparacion de marca y herramientas <a className='color-span text-[12px]'>[ en proceso ]</a> 
                                         </div>
                                         <p>
 
@@ -64,55 +64,40 @@ const ScrollBlocks = () => {
                 </div>
 
 
-                <div className="step-block">
+                <div className="step-block z-40">
 
-                    <div className="scoll-wrap">
+                    <div className="scoll-wrap z-0">
                         <div
                             className="scroll-animate"></div>
                         <div className="scroll-base"></div>
                     </div>
 
-                    <div className="content-wrap text-1xl text-[#0F0F0F]">
-                        <div className="step-content-block">
+                    <div className="content-wrap text-1xl text-[#0F0F0F] z-10">
+                        <div className="step-content-block opacity-[70%]">
                             <div className="step">
                                 <div className="text-block">
-                                    <div class="label">01</div>
+                                    <div class="label">02</div>
                                     <div className="label mb-3"></div>
                                     <div className="content">
                                         <div className="font-sans font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont akira-font">
-                                            Kyonax
+                                            CREACION DE CONTENIDO preparacion de marca y herramientas <a className='color-span text-[12px]'>[ JUNIO/03/2022 ]</a> 
                                         </div>
                                         <p>
-                                            <strong>
-                                                True decentralization makes an NFT project
-                                                indestructible... but running every decision by a vote
-                                                is dumb &amp; inefficient.
-                                                <br />
-                                                &zwj;
-                                            </strong>
-                                            <br />
+                                            
+                                            La manera en cómo se comparte y socializa la información es ahora por medio
+                                            de la Creación de Contenido, debiéndose a la rapidez y facilidad de consumo.
                                             &zwj;
-                                            <strong>
-                                                Fuck that. We are building on-chain{" "}
-                                                <em>elections </em>for a group of elite DeMonarchs.
-                                            </strong>
-                                            &nbsp;
-                                            <br />
-                                            <br />
+                                            <br/>
+                                            <br/>
+                                            
+                                            Las Redes Sociales son ahora nuestro lugar de aprendizaje y es por eso que
+                                            Kyonax se enfocará principalmente en brindar Contenido de Calidad enfocado 
+                                            a informar y entretener, enfocado a cada una de las Dependencias de la
+                                            marca (Kyonax, DotKyo, Lost in the Multiverse, KyoNFT)                                    
                                             &zwj;
-                                            <strong>
-                                                They will have shared power over the DAO funds &amp;
-                                                get compensated by a % of the DeDAO royalties.
-                                            </strong>
-                                            &nbsp;
                                             <br />
-                                            <br />
-                                            &zwj;
-                                            <strong>
-                                                But they will have to actually do shit... because the
-                                                community will be able to vote them out at any time.
-                                            </strong>
-                                            <br />
+                                            <br />                                            
+                                            <a href="https://kyonax.link/docs_roadmap" className='color-span cursor-pointer'>[más información]</a> 
                                         </p>
                                     </div>
                                 </div>
@@ -120,8 +105,52 @@ const ScrollBlocks = () => {
                         </div>
                     </div>
 
-                    <div class="bg-[#a819eb] dot"></div>
+                    <div class="bg-[#ff007b] dot z-0"></div>
                     <div className="blank-block"></div>
+
+
+                </div>
+
+                <div className="step-block">
+
+                <div className="blank-block"></div>
+                <div class="bg-[#a819eb] dot"></div>
+                    
+
+                    <div className="scoll-wrap">
+                        <div
+                            className="scroll-animate-2"></div>
+                        <div className="scroll-base"></div>
+                    </div>
+
+                    <div className="content-wrap text-1xl text-[#0F0F0F]">
+                        <div className="step-content-block opacity-[70%]">
+                            <div className="step">
+                                <div className="text-block">
+                                    <div class="label">03</div>
+                                    <div className="label mb-3"></div>
+                                    <div className="content">
+                                        <div className="font-sans font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont akira-font">
+                                            Equipo Kyonax - Organizacion decentralizada <a className='color-span text-[12px]'>[ TBA ]</a> 
+                                        </div>
+                                        <p>
+                                            
+                                            Para cumplir con el objetivo de Kyonax, y ser una idea de cambio novedosa
+                                            para los ecosistemas acutales digitales más importantes de nuestra humanidad, 
+                                            se necesita la mano de una Comunidad unida y fuerte, con una misma visión, en 
+                                            busca de un bien común, usando las nuevas tecnologías para lograr todo objetivo.                                                                           
+                                            &zwj;                                            
+                                            <br />
+                                            <br />
+                                            <a href="https://kyonax.link/docs_roadmap" className='color-span cursor-pointer'>[más información]</a> 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
 
 
                 </div>

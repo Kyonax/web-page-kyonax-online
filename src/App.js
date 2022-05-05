@@ -1,7 +1,7 @@
 /* Web Pages Kyonax*/
 import HomePage from "./pages/Kyonax/HomePage";
 import AcercaDePage from "./pages/Kyonax/AcercaDePage";
-import ServiciosPage from "./pages/Kyonax/ServiciosPage";
+import DependenciasPage from "./pages/Kyonax/DependenciasPage";
 import TermsPage from "./pages/Kyonax/TermsPage";
 import PrivacidadPage from "./pages/Kyonax/PrivacidadPage";
 import RoadmapPage from "./pages/Kyonax/RoadmapPage";
@@ -19,7 +19,7 @@ function App() {
         <Route path="/" element={<HomePage/>} />
         <Route path="/roadmap" element={<RoadmapPage/>} ></Route>
         <Route path="/acerca_de_kyonax" element={<AcercaDePage/>} />
-        <Route path="/servicios" element={<ServiciosPage/>} />
+        <Route path="/dependencias" element={<DependenciasPage/>} />
         <Route path="/terms" element={<TermsPage/>} />
         <Route path="/privacidad" element={<PrivacidadPage/>} />
         {/* Dot Kyo */}

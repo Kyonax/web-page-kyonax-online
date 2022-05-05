@@ -1,14 +1,14 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-export default function ServiciosPage () {
+export default function DependenciasPage () {
   return (
     <div>
-      {/* SERVICIOS PAGE - Kyonax */}
+      {/* Dependencias PAGE - Kyonax */}
       <Navbar />
       
       <Footer />
-      {/* END SERVICIO PAGE - Kyonax */}
+      {/* END DEPENDENCIAS PAGE - Kyonax */}
     </div>
   );
 }
