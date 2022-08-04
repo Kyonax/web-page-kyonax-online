@@ -213,7 +213,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 912px) {
   .content-wrap {
     width: 90%;
     height: 50vh;

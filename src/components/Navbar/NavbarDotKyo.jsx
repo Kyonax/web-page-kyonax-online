@@ -16,8 +16,8 @@ const Navbar = () => {
 
             {/* Menu */}
             <ul className='hidden md:flex mr-[3%] font-thin text-sm'>
-                <li><a href="/acerca_de_kyonax">ACERCA DE</a></li>
-                <li><a href="/servicios">SERVICIOS</a></li>                
+                <li><a href="/#/acerca_de_kyonax">ACERCA DE</a></li>
+                <li><a href="/#/servicios">SERVICIOS</a></li>                
                 <div className='hidden md:flex justify-center items-center'>
                     <li> <a href="https://www.linkedin.com/in/kyonax/">
                         <FaLinkedin /></a>

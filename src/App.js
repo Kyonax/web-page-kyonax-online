@@ -12,17 +12,18 @@ import HomePageLostInTheMultiverse from "./pages/LostInTheMultiverse/HomePage"
 /* Web Pages KyoNFT*/
 import HomePageKyoNFT from "./pages/KyoNFT/HomePage"
 /*Locale and Libraries*/
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter ,BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 function App() {
-  return (
-    <BrowserRouter>
+  return (    
+    
+    <HashRouter>
       <Routes>
         {/* Kyonax */}
         <Route path="/" element={<HomePage/>} />
         <Route path="/roadmap" element={<RoadmapPage/>} ></Route>
-        <Route path="/acerca_de_kyonax" element={<AcercaDePage/>} />
+        {/*<Route path="/acerca_de_kyonax" element={<AcercaDePage/>} />*/}
         <Route path="/dependencias" element={<DependenciasPage/>} />
         <Route path="/terms" element={<TermsPage/>} />
         <Route path="/privacidad" element={<PrivacidadPage/>} />
@@ -33,7 +34,8 @@ function App() {
         {/* KyoNFT */}
         <Route path="/kyo_nft" element={<HomePageKyoNFT/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
+  
   );
 }
 

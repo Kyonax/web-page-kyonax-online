@@ -26,19 +26,19 @@ const Navbar = () => {
 
             {/* Menu */}
             <ul className='hidden md:flex mr-[3%] font-thin text-sm'>
-                <li><a href="/roadmap">ROADMAP</a></li>
-                <li><a href="/acerca_de_kyonax">ACERCA DE</a></li>
+                <li><a href="/#/roadmap">ROADMAP</a></li>
+                {/*<li><a href="/acerca_de_kyonax">ACERCA DE</a></li>*/}
                 <li className='relative'><a onClick={handleClickOp}>DEPENDENCIAS</a>
                     <div className={!depen ? 'hidden' : 'absolute font-medium text-black bg-white right-0 rounded-md p-2 mt-2'}>
                         <ul className='space-y-2 md:w-48'>
                             <li>
-                                <a href="/dot_kyo" className='mt-1 flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#ff7c01]'>DOT KYO - PAGE</a>
+                                <a href="/#/dot_kyo" className='mt-1 flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#ff7c01]'>DOT KYO - PAGE</a>
                             </li>
                             <li >
-                                <a href="/kyonax_lost_in_the_multiverse" className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#ff007b]'>LOST IN THE MULTIVERSE</a>
+                                <a href="/#/kyonax_lost_in_the_multiverse" className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#ff007b]'>LOST IN THE MULTIVERSE</a>
                             </li>
                             <li >
-                                <a href="/kyo_nft" className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#a819eb]'>KYO NFT - PAGE</a>
+                                <a href="/#/kyo_nft" className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#a819eb]'>KYO NFT - PAGE</a>
                             </li>
                         </ul>
                     </div>
@@ -69,19 +69,19 @@ const Navbar = () => {
             {/* Mobile Menu */}
             <ul className={!nav ? 'hidden' : 'md:hidden absolute top-[80px] left-0 w-full h-screen bg-[#0F0F0F] bg-opacity-95 flex flex-col justify-center items-center font-thin text-sm z-40'}>
 
-                <li className='py-3 text-1xl'><a href="/roadmap">ROADMAP</a></li>
-                <li className='py-3 text-1x1'><a href="/acerca_de_kyonax">ACERCA DE</a></li>
+                <li className='py-3 text-1xl'><a href="/#/roadmap">ROADMAP</a></li>
+                {/*<li className='py-3 text-1x1'><a href="/acerca_de_kyonax">ACERCA DE</a></li>*/}
                 <li className='py-3 block justify-center text-center w-full'><a onClick={handleClickOp}>DEPENDENCIAS</a>
                     <div className={!depen ? 'hidden' : 'font-medium text-black bg-white center-0 justify-center text-center rounded-md p-2 mt-2'}>
                         <ul className='space-y-2 w-full'>
                             <li>
-                                <a href="/dot_kyo" className='mt-1 flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#ff7c01]'>DOT KYO - PAGE</a>
+                                <a href="/#/dot_kyo" className='mt-1 flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#ff7c01]'>DOT KYO - PAGE</a>
                             </li>
                             <li >
-                                <a href="/kyonax_lost_in_the_multiverse" className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#ff007b]'>LOST IN THE MULTIVERSE</a>
+                                <a href="/#/kyonax_lost_in_the_multiverse" className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#ff007b]'>LOST IN THE MULTIVERSE</a>
                             </li>
                             <li >
-                                <a href="/kyo_nft" className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#a819eb]'>KYO NFT - PAGE</a>
+                                <a href="/#/kyo_nft" className='flex p-2 font-medium text-gray-600 rounded-md hover:bg-gray-100 hover:text-[#a819eb]'>KYO NFT - PAGE</a>
                             </li>
                         </ul>
                     </div>

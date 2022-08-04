@@ -36,7 +36,7 @@ const Terminos = () => {
                                 <br />
                             </li>
                             <li class="mb-xs pl-sm">
-                                <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]    text-base"><strong>Política de privacidad.</strong> Revise nuestra <a class="border-b" href="/privacidad">Política de privacidad</a>, que también
+                                <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]    text-base"><strong>Política de privacidad.</strong> Revise nuestra <a class="border-b" href="/#/privacidad">Política de privacidad</a>, que también
                                      rige su uso del Sitio, para obtener información sobre cómo recopilamos, usamos y
                                      compartimos su información.</p>
                                 &zwj;

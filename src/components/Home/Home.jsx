@@ -31,19 +31,19 @@ const Home = () => {
                 <div className={'z-[0] mt-1 grid grid-cols-[40px_minmax(89px,_0fr)_60px_53px] md:grid-cols-[78px_minmax(130px,_0fr)_110px_95px] sm:grid-cols-[58px_minmax(110px,_0fr)_90px_75px] md:mt-3'}>
 
                     <div>
-                        <a href='/dot_kyo' target="_blank">
+                        <a href='/#/dot_kyo'>
                             <img src={DotKyo} alt="Logo Dot Kyo - Developer" className='selected-logo mr-0 mt-[7px] sm:mt-[10px] md:mt-[2px] change-svg-color-v2' />
                         </a>
                     </div>
 
                     <div className='pl-1'>
-                        <a href="/kyonax_lost_in_the_multiverse">
+                        <a href="/#/kyonax_lost_in_the_multiverse">
                             <img src={LostMultiverse} alt="Logo Lost in the Multiverse - Content Creator" className='selected-logo pl-4 mt-[-16px] sm:mt-[-18px] md:mt-[-30px] change-svg-color-v2' />
                         </a>
                     </div>
 
                     <div>
-                        <a href="/kyo_nft">
+                        <a href="/#/kyo_nft">
                             <img src={KyoNFT} alt="Logo Kyo NFT - Crypto and NFT expert" className='selected-logo md:mt-[-7px] sm:mt-[2px] flex flex-col opacity-[85.5%]' />
                         </a>
                     </div>

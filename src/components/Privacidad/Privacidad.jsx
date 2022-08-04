@@ -15,18 +15,18 @@ const Privacidad = () => {
                         <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Esta Política de privacidad está diseñada para ayudarlo a comprender cómo Kyonax (llamado y dependencias "Kyonax, DotKyonax, Kyonax Lost in the Multiverse, KyoNFT", "nosotros", "nos" y "nuestro") recopila, usa y comparte su información personal para ayudarlo a comprender y ejercer sus derechos de privacidad.</p>&zwj;
                         <br />
                         <ul class="mx-auto mb-md w-full max-w-2xl text-[12px] sm:text-[13px] list-disc pl-sm">
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#alcance">Alcance</a></li>
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#cambios-en-nuestra-politica-de-privacidad">Cambios en Nuestra Política de Privacidad</a></li>
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#informacion-personal-que-recopilamos">Información personal que Recopilamos</a></li>
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#como-usamos-su-informacion">Cómo usamos su Información</a></li>
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#como-divulgamos-su-informacion">Cómo divulgamos su Información</a></li>
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#su-privacidad-opciones-y-derechos">Su Privacidad, Opciones y Derechos</a></li>
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#seguridad-de-su-informacion">Seguridad de su Información</a></li>
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#transferencias-internacionales-de-datos">Transferencias Internacionales de Datos</a></li>
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#retencion-de-información-personal">Retención de Información Personal</a></li>                                                        
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#informacion-para-los-niños">Información para Niños</a></li>
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#aplicaciones-de-sitios-web-de-terceros">Aplicaciones y Sitios Web de Terceros</a></li>                            
-                            <li class="mb-xs pl-sm"><a class="border-b" href="/privacidad#contacto">Contácte a Kyonax</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#alcance">Alcance</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#cambios-en-nuestra-politica-de-privacidad">Cambios en Nuestra Política de Privacidad</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#informacion-personal-que-recopilamos">Información personal que Recopilamos</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#como-usamos-su-informacion">Cómo usamos su Información</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#como-divulgamos-su-informacion">Cómo divulgamos su Información</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#su-privacidad-opciones-y-derechos">Su Privacidad, Opciones y Derechos</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#seguridad-de-su-informacion">Seguridad de su Información</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#transferencias-internacionales-de-datos">Transferencias Internacionales de Datos</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#retencion-de-información-personal">Retención de Información Personal</a></li>                                                        
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#informacion-para-los-niños">Información para Niños</a></li>
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#aplicaciones-de-sitios-web-de-terceros">Aplicaciones y Sitios Web de Terceros</a></li>                            
+                            <li class="mb-xs pl-sm"><a class="border-b" href="/#/privacidad#contacto">Contácte a Kyonax</a></li>
                         </ul>&zwj;
                         <br />
                         <h2 id="alcance" class="mx-auto mt-xl mb-md w-full max-w-2xl text-1xl font-bold uppercase tablet:text-2xl">Alcance</h2>
@@ -105,7 +105,7 @@ const Privacidad = () => {
                                         <br />
                                     </li>
                                     <li class="mb-xs pl-sm">
-                                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base"><strong>Relacionados con el rendimiento.</strong> Podemos usar Tecnologías para evaluar el rendimiento de nuestro Sitio, incluso como parte de nuestras prácticas analíticas para ayudarnos a comprender cómo las personas usan nuestro Sitio (consulte <a class="border-b" href="/privacidad#analicis">Análisis</a> a continuación);</p>&zwj;
+                                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base"><strong>Relacionados con el rendimiento.</strong> Podemos usar Tecnologías para evaluar el rendimiento de nuestro Sitio, incluso como parte de nuestras prácticas analíticas para ayudarnos a comprender cómo las personas usan nuestro Sitio (consulte <a class="border-b" href="/#/privacidad#analicis">Análisis</a> a continuación);</p>&zwj;
                                         <br />
                                     </li>
                                     <li class="mb-xs pl-sm">
@@ -119,7 +119,7 @@ const Privacidad = () => {
                                 </ul>
                             </li>
                         </ul>
-                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Ver <a class="border-b" href="/privacidad#tu-privacidad-elecciones-y-derecho">“Sus opciones y derechos de privacidad”</a> a continuación comprendera sus opciones con respecto a estas tecnologías.</p>&zwj;
+                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Ver <a class="border-b" href="/#/privacidad#tu-privacidad-elecciones-y-derecho">“Sus opciones y derechos de privacidad”</a> a continuación comprendera sus opciones con respecto a estas tecnologías.</p>&zwj;
                         <br />
                         <ul class="mx-auto mb-md w-full max-w-2xl list-disc pl-sm">
                             <li class="mb-xs pl-sm">
@@ -187,7 +187,7 @@ const Privacidad = () => {
                         <br />
                         <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Algunas de las formas en que podemos comercializarle incluyen campañas de correo electrónico, publicidad de audiencias personalizadas y publicidad "basada en intereses" o "personalizada", incluso a través del seguimiento entre dispositivos.</p>&zwj;
                         <br />
-                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Si tiene alguna pregunta sobre nuestras prácticas de marketing o si desea excluirse del uso de su información personal para fines de marketing, puede comunicarse con nosotros en cualquier momento como se establece en "<a class="border-b" href="/privacidad#contacto">Contáctenos</a>” a continuación.</p>
+                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Si tiene alguna pregunta sobre nuestras prácticas de marketing o si desea excluirse del uso de su información personal para fines de marketing, puede comunicarse con nosotros en cualquier momento como se establece en "<a class="border-b" href="/#/privacidad#contacto">Contáctenos</a>” a continuación.</p>
                         &zwj;
                         <br />
                         <h3 id="d-with-your-consent" class="mx-auto mt-lg mb-sm w-full max-w-2xl text-1xl font-semibold uppercase">D. con su consentimiento</h3>
@@ -198,7 +198,7 @@ const Privacidad = () => {
                         <br />
                         <ul class="mx-auto mb-md w-full max-w-2xl list-disc pl-sm">
                             <li class="mb-xs pl-sm">
-                                <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base"><strong>Toma de decisiones automatizada.</strong> Podemos participar en la toma de decisiones automatizada, incluida la elaboración de perfiles. El procesamiento de su información personal por parte de Kyonax no dará como resultado una decisión basada únicamente en el procesamiento automatizado que lo afecte significativamente, a menos que dicha decisión sea necesaria como parte de un contrato que tenemos con usted, tengamos su consentimiento o la ley nos permita participar. en dicha toma de decisiones automatizada. Si tiene preguntas sobre nuestra toma de decisiones automatizada, puede comunicarse con nosotros como se establece en "<a class="border-b" href="/privacidad#contacto">Contáctenos</a>” a continuación.</p>&zwj;
+                                <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base"><strong>Toma de decisiones automatizada.</strong> Podemos participar en la toma de decisiones automatizada, incluida la elaboración de perfiles. El procesamiento de su información personal por parte de Kyonax no dará como resultado una decisión basada únicamente en el procesamiento automatizado que lo afecte significativamente, a menos que dicha decisión sea necesaria como parte de un contrato que tenemos con usted, tengamos su consentimiento o la ley nos permita participar. en dicha toma de decisiones automatizada. Si tiene preguntas sobre nuestra toma de decisiones automatizada, puede comunicarse con nosotros como se establece en "<a class="border-b" href="/#/privacidad#contacto">Contáctenos</a>” a continuación.</p>&zwj;
                                 <br />
                             </li>
                             <li class="mb-xs pl-sm">
@@ -294,7 +294,7 @@ const Privacidad = () => {
                                 <br/>
                             </li>
                         </ul>
-                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Si desea ejercer cualquiera de estos derechos, comuníquese con nosotros como se establece en "<a class="border-b" href="/privacidad#contacto">Contáctenos</a>” a continuación. Procesaremos dichas solicitudes de acuerdo con las leyes aplicables.</p>&zwj;
+                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Si desea ejercer cualquiera de estos derechos, comuníquese con nosotros como se establece en "<a class="border-b" href="/#/privacidad#contacto">Contáctenos</a>” a continuación. Procesaremos dichas solicitudes de acuerdo con las leyes aplicables.</p>&zwj;
                                 <br/>
                         <h2 id="seguridad-de-su-informacion" class="mx-auto mt-xl mb-md w-full max-w-2xl text-1xl font-bold uppercase tablet:text-2xl">Seguridad de su información</h2>
                         <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Tomamos medidas diseñadas para garantizar que su información se trate de forma segura y de acuerdo con esta Política de privacidad. Desafortunadamente, ningún sistema es 100 % seguro y no podemos asegurar ni garantizar la seguridad de la información que nos proporcione. En la máxima medida permitida por la ley aplicable, no aceptamos responsabilidad por la divulgación no autorizada.</p>&zwj;
@@ -308,7 +308,7 @@ const Privacidad = () => {
                         <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">Almacenamos la información personal que recopilamos como se describe en esta Política de privacidad durante el tiempo que utilice nuestro Sitio o según sea necesario para cumplir con los fines para los que se recopiló, proporcionar nuestro Sitio, resolver disputas, establecer defensas legales, realizar auditorías , perseguir fines comerciales legítimos, hacer cumplir nuestros acuerdos y cumplir con las leyes aplicables.</p>&zwj;
                                 <br/>                                                        
                         <h2 id="informacion-para-los-niños" class="mx-auto mt-xl mb-md w-full max-w-2xl text-1xl font-bold uppercase tablet:text-2xl">Información para niños</h2>
-                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">El Sitio no está dirigido a niños menores de 13 años (u otra edad según lo requiera la ley local), y no recopilamos deliberadamente información personal de niños. Si se entera de que su hijo nos ha proporcionado información personal sin su consentimiento, puede comunicarse con nosotros como se establece en "<a class="border-b" href="/privacidad#contacto">Contáctenos</a >” a continuación. Si nos enteramos de que hemos recopilado la información personal de un niño en violación de la ley aplicable, tomaremos medidas de inmediato para eliminar dicha información.</p>&zwj;
+                        <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">El Sitio no está dirigido a niños menores de 13 años (u otra edad según lo requiera la ley local), y no recopilamos deliberadamente información personal de niños. Si se entera de que su hijo nos ha proporcionado información personal sin su consentimiento, puede comunicarse con nosotros como se establece en "<a class="border-b" href="/#/privacidad#contacto">Contáctenos</a >” a continuación. Si nos enteramos de que hemos recopilado la información personal de un niño en violación de la ley aplicable, tomaremos medidas de inmediato para eliminar dicha información.</p>&zwj;
                                 <br/>
                         <h2 id="aplicaciones-de-sitios-web-de-terceros" class="mx-auto mt-xl mb-md w-full max-w-2xl text-1xl font-bold uppercase tablet:text-2xl">Sitios web/aplicaciones de terceros</h2>
                         <p class="mx-auto mb-sm w-full max-w-2xl text-[12px] sm:text-[13px]  text-base">El Sitio puede contener enlaces a otros sitios web/aplicaciones y otros sitios web/aplicaciones pueden hacer referencia o vincular a nuestro Sitio. Estos servicios de terceros no están controlados por nosotros. Alentamos a nuestros usuarios a leer las políticas de privacidad de cada sitio web y aplicación con la que interactúan. No respaldamos, examinamos ni aprobamos, y no somos responsables de, las prácticas de privacidad o el contenido de dichos otros sitios web o aplicaciones. Proporcionar información personal a sitios web o aplicaciones de terceros esta bajo su propio riesgo.</p>&zwj;
